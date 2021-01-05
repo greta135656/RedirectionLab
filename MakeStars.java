@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class MakeStars {
   public static void main (String[] args){
@@ -9,11 +9,12 @@ public class MakeStars {
     while (line.hasNext()){
       String word = line.next();
       for (int i=0; i<word.length(); i++){
-        out += "*";
+        out += "*";}
         if(line.hasNext()) {
      out += "";
       }
     }
     System.out.println(out);
     
-  }}}}
+  }}}
+
