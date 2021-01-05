@@ -11,10 +11,11 @@ public class MakeStars {
       for (int i=0; i<word.length(); i++){
         out += "*";}
         if(line.hasNext()) {
-     out += "";
+     out += " ";
       }
     }
     System.out.println(out);
     
   }}}
+
 
